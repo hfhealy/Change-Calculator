@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300&display=swap');
+body {
+    background-color: rgb(255, 255, 255); 
+}
+#content {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 0;
+    width: 700px;
+    height: 525px;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 3.3rem;
+    padding-top: 40px;
+    margin-bottom: 5px;
+    color:rgb(57, 111, 86);
+}
+#inputs {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#amount-received {
+    margin: 0px 10px;
+    width: 180px;
+}
+
+#change {
+    text-align: center;
+}
+
+#coin-titles {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    align-items: center;
+} 
+
+#coin-amounts {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-basis:content;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 35px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 25px;
+    color:rgb(47, 89, 69);
+}
+input {
+    height: 40px;
+    width: 150px;
+}
+.coin-outputs {
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+#calculate-change {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    width: 100px;
+}
+#amount-titles p {
+    display: inline-block;
+    margin-bottom: 2px;
+}
+#due-title {
+    margin-left: 141px;
+    font-weight: 1000;
+}
+#rec-title {
+    margin-left: 45px;
+    font-weight: 1000;
+}
+#dollar-image {
+    width: 150px;
+    height: 65px;
+}
+#quarter-image {
+    width: 80px;
+    height: 80px;
+}
+#dime-image {
+    width: 60px;
+    height: 60px;
+}
+#nickel-image {
+    width: 70px;
+    height: 70px;
+}
+#penny-image {
+    width: 65px;
+    height: 65px;
+}
+#output {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 25px;
+    color:rgb(47, 89, 69);
+}
+#amount-titles, #change-title {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 18px;
+}
+button {
+    font-size: 18px;
+    background-color: rgb(57, 111, 86);
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+button:hover {
+    background-color: rgb(91, 128, 111);
+}
+button:active {
+    background-color: white;
+}
+#dollars-output {
+    margin-left: 8px;
+}
+#quarters-output {
+    margin-left: 56px;
+}
+#dimes-output {
+    margin-left: 15px;
+}
+#nickels-output {
+    margin-left: 5px;
+}
+#pennies-output {
+    margin-left: 10px;
+}
+

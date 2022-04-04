@@ -5,25 +5,43 @@
     <title>Change Calculator</title>
   </head>
   <body>
+<div id="content">
     <h1>Change Calculator</h1>
-    <input id="amount-due" type="text" placeholder="Amount Due"> 
-    <input id="amount-received" type="text" placeholder="Amount Received"> 
+  <div id="amount-titles">
+    <p id="due-title">Amount Due</p>
+    <p id="rec-title">Amount Received</p>
+  </div>
+  <div id="inputs">
+    <input id="amount-due" type="text"> 
+    <input id="amount-received" type="text"> 
     <button id="calculate-change">Calculate</button>
-    <p>Change</p>
+  </div>
+  <div id="change">
+    <p id="change-title"></p>
     <p id="output"></p>
-    <p>Dollars</p>
-    <p id="dollars-output"></p>
-    <p>Quarters</p>
-    <p id="quarters-output"></p>
-    <p>Dimes</p>
-    <p id="dimes-output"></p>
-    <p>Nickels</p>
-    <p id="nickels-output"></p>
-    <p>Pennies</p>
-    <p id="pennies-output"></p>
+  </div>
+  <div id="image-reveal" style="display:none;">
+  <div id="coin-titles">
+    <img id="dollar-image" src="./Images/320px-US_one_dollar_bill,_obverse,_series_2009.jpeg">
+    <img id="quarter-image" src="./Images/2021-P_US_Quarter_Obverse.jpeg">
+    <img id="dime-image" src="./Images/243px-2017-D_Roosevelt_dime_obverse_transparent.png">
+    <img id="nickel-image" src="./Images/244px-Jefferson-Nickel-Unc-Obv.jpeg">
+    <img id="penny-image" src="./Images/US_One_Cent_Obv.png">
+    
+  </div>
+  <div id="coin-amounts">
+    <p id="dollars-output" class="coin-outputs"></p>
+    <p id="quarters-output" class="coin-outputs"></p>
+    <p id="dimes-output" class="coin-outputs"></p>
+    <p id="nickels-output" class="coin-outputs"></p>
+    <p id="pennies-output" class="coin-outputs"></p>
+  </div>
+</div>
+</div>
     
 
     <script src="main.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles.css">
 
   </body>
 </html>
