@@ -3,9 +3,6 @@ function handleClickEvent(e) {
     let amountRec = document.getElementById("amount-received").value;
     let change = (amountRec - amountDue).toFixed(2);
 
-    // let message = document.getElementById("output");
-    // message.innerText = '$' + change;
-
     document.getElementById("output").innerText = '$' + change;
     document.getElementById("change-title").innerText = 'Change';
 
@@ -28,11 +25,9 @@ function handleClickEvent(e) {
     let pennies = Math.round(change / .01);
     document.getElementById("pennies-output").innerHTML = pennies;
     change = change - pennies;
-           
+
     document.getElementById("image-reveal").style.display = "block";
 } 
 
 
 document.getElementById("calculate-change").addEventListener("click", () => handleClickEvent())
-
-// document.querySelector("img").onclick
