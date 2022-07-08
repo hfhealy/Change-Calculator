@@ -2,7 +2,7 @@
     "name": "change-calculator",
     "version": "0.2.0",
     "description": "WEB101 Change Calculator",
-    "private": true,
+    
     "repository": {},
     "license": "mit",
     "scripts": {
@@ -12,7 +12,7 @@
     "devDependencies": {
         "axios": "^0.16.2",
         "chai": "^4.0.2",
-        "express": "^4.15.3",
+        "express": "^4.18.1",
         "mocha": "^5.2.0",
         "nightmare": "^3.0.1",
         "node-static": "^0.7.9"
