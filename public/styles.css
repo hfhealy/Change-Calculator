@@ -69,7 +69,7 @@ input {
 }
 #calculate-change {
     font-family: 'Poppins', Helvetica, sans-serif;
-    width: 100px;
+    /* width: 100px; */
 }
 #amount-titles p {
     display: inline-block;
@@ -113,7 +113,7 @@ input {
     font-size: 18px;
 }
 button {
-    font-size: 18px;
+    /* font-size: 18px; */
     background-color: rgb(57, 111, 86);
     color: white;
     border-radius: 3px;
